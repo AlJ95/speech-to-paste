@@ -1,7 +1,7 @@
 # Abhängigkeiten für das Speech-to-Paste Projekt
 
 # Für Audioaufnahme und -verarbeitung
-# pyaudio (manuell installieren, da es Build-Probleme geben kann)
+pyaudio
 numpy
 pygame>=2.0.0
 

@@ -2,13 +2,7 @@
 """
 Test script to verify the text cleaning functionality
 """
-import sys
-import os
-
-# Füge das Projektverzeichnis zum Python-Pfad hinzu
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from text_cleaner import TextCleaner
+from speech_to_paste.text_cleaner import TextCleaner
 
 def test_text_cleaning():
     print("Teste Textbereinigungs-Funktionalität...")

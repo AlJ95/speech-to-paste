@@ -1,7 +1,7 @@
 import threading
 import time
 from pynput import keyboard
-from notification_manager import NotificationManager
+from .notification_manager import NotificationManager
 
 
 class HotkeyManager:

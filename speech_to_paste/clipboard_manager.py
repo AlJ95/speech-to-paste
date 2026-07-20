@@ -1,7 +1,7 @@
 import subprocess
 import os
-from notification_manager import NotificationManager
-from text_cleaner import TextCleaner
+from .notification_manager import NotificationManager
+from .text_cleaner import TextCleaner
 
 class ClipboardManager:
     def __init__(self):

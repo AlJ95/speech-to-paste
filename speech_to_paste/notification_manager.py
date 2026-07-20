@@ -2,7 +2,7 @@ import math
 import numpy as np
 import pygame
 import os
-from config import START_SOUND_FILE, END_SOUND_FILE, CLIPBOARD_SOUND_FILE
+from .config import START_SOUND_FILE, END_SOUND_FILE, CLIPBOARD_SOUND_FILE
 
 class NotificationManager:
     _initialized = False

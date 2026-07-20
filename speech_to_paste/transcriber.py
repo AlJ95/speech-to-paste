@@ -3,7 +3,7 @@ import subprocess
 import tempfile
 import requests
 import time
-from config import WHISPER_PATH, WHISPER_EXECUTABLE, WHISPER_SERVER_EXECUTABLE, WHISPER_MODEL, WHISPER_SERVER_PORT
+from .config import WHISPER_PATH, WHISPER_EXECUTABLE, WHISPER_SERVER_EXECUTABLE, WHISPER_MODEL, WHISPER_SERVER_PORT
 import wave
 
 class Transcriber:

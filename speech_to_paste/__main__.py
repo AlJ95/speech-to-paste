@@ -6,11 +6,11 @@ import signal
 import sys
 import os
 import tempfile
-import config
-from audio_recorder import AudioRecorder
-from transcriber import Transcriber
-from hotkey_manager import HotkeyManager
-from clipboard_manager import ClipboardManager
+from . import config
+from .audio_recorder import AudioRecorder
+from .transcriber import Transcriber
+from .hotkey_manager import HotkeyManager
+from .clipboard_manager import ClipboardManager
 
 class SpeechToPaste:
     def __init__(self):

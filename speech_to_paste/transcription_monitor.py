@@ -1,8 +1,8 @@
 import threading
 import time
 import os
-from config import TRANSCRIPTION_FILE
-from clipboard_manager import ClipboardManager
+from .config import TRANSCRIPTION_FILE
+from .clipboard_manager import ClipboardManager
 
 class TranscriptionMonitor:
     def __init__(self):

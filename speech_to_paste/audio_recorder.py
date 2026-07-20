@@ -3,7 +3,7 @@ import wave
 import threading
 import time
 import os
-from config import SAMPLE_RATE, CHANNELS
+from .config import SAMPLE_RATE, CHANNELS
 
 class AudioRecorder:
     def __init__(self):

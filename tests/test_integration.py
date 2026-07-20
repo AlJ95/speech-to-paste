@@ -2,13 +2,7 @@
 """
 Integration test for ClipboardManager — tests copy_to_clipboard and process_and_copy_text.
 """
-import sys
-import os
-
-# Add project directory to Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from clipboard_manager import ClipboardManager
+from speech_to_paste.clipboard_manager import ClipboardManager
 
 
 def test_copy_to_clipboard():
