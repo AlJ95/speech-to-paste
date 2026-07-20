@@ -1,0 +1,19 @@
+# Abhängigkeiten für das Speech-to-Paste Projekt
+
+# Für Audioaufnahme und -verarbeitung
+# pyaudio (manuell installieren, da es Build-Probleme geben kann)
+numpy
+pygame>=2.0.0
+
+# Für Systeminteraktion
+psutil
+
+# Für OpenAI API / OpenRouter
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Für Hotkey-Unterstützung
+pynput
+
+# Für HTTP-Anfragen an den Whisper-Server
+requests
